@@ -31,6 +31,11 @@
 header{
     background-color:#FFF8F3;
     padding-top: 50px;
+    /* (25)(26) background:#FFF8F3  */
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
 }
 /* (7) */
 nav{
@@ -77,4 +82,50 @@ nav .menu a{
     border-radius:5px;
     font-weight: bold;
     color: white; 
+    /* (25) */
+    cursor: pointer;
+}
+/* (18) */
+#banner{
+    border: 1px solid red;
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* (19) */
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+}
+/* (20) */
+#banner .banner-content h2{
+    font-size: 85px;
+    font-weight: bold;
+    color
+}
+/* (21)something is wrong */
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+}
+/* (22) */
+#banner .banner-content p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+}
+/* (23) */
+#banner .banner-content{
+    max-width: 585px;
+}
+/* (24) something is wrong */
+#banner .banner-image img{
+    max-width: 585px;
+    verticle-align: middle;
+
 }
