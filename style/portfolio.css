@@ -1,0 +1,80 @@
+/* body{
+    background-color: blueviolet;
+} */
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+/* (7) */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ /* (3) from google fonts. Open Sans: CSS class for a variable style*/
+
+ /* shared style */
+ .font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* (6) background color of webpage desighn of portfolio from figma */
+
+/* main style */
+header{
+    background-color:#FFF8F3;
+    padding-top: 50px;
+}
+/* (7) */
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* (8) */
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between; 
+    /* (15) */
+    align-items: center;
+}
+
+/* (9) */
+.logo h2{
+    font-size: 45px;
+    /* (12) */
+    font-weight: 900;
+}
+/* (11) */
+.color-orange{
+    color: #FD6E0A;
+}
+/* (14) */
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    /* (18) */
+    align-items: center;
+}
+/* (15) */
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+/* (17) */
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius:5px;
+    font-weight: bold;
+    color: white; 
+}
